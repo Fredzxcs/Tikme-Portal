@@ -18,7 +18,7 @@ SECRET_KEY = 'django-insecure-6__ep5kjri09vtulj^7&ja2-yh0@t5__#g))418%o3v-82tmtu
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = os.environ.get('ALLOWED_HOSTS', '127.0.0.1,localhost').split(',')
+ALLOWED_HOSTS = os.environ.get('ALLOWED_HOSTS', '127.0.0.1,localhost,tikme-portal-krfg.onrender.com').split(',')
 
 
 # Application definition
